@@ -1,13 +1,14 @@
-import { Button } from '@/components/ui/button';
+import Header from '@/components/layouts/Header';
+import HeroSection from '@/section/01-hero';
 
 function App() {
   return (
-    <div>
-      <h1>Montserrat</h1>
-      <h2 className='font-anton'>Anton</h2>
-      <h2 className='font-bonheurRoyale'>BonheurRoyale</h2>
-      <Button>Let's Talk</Button>
-    </div>
+    <>
+      <div className='relative'>
+        <Header />
+        <HeroSection />
+      </div>
+    </>
   );
 }
 
