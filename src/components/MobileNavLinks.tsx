@@ -1,10 +1,14 @@
 import { navLinks } from '@/data/navLinks';
 
-const NavLinks = () => {
+interface MobileNavLinks {
+  closeMenu: () => void;
+}
+
+const MobileNavLinks = ({ closeMenu }: MobileNavLinks) => {
   return (
-    <ul className='hidden lg:flex gap-8 w-full justify-between items-center'>
+    <ul className='flex flex-col gap-2 w-full'>
       {navLinks.map((link) => (
-        <li key={link.id}>
+        <li key={link.id} onClick={closeMenu}>
           <a href={link.href} className='font-medium text-md text-white'>
             {link.label}
           </a>
@@ -14,4 +18,4 @@ const NavLinks = () => {
   );
 };
 
-export default NavLinks;
+export default MobileNavLinks;

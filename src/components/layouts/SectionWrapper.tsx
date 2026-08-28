@@ -25,7 +25,7 @@ const SectionWrapper = ({
     <section
       id={sectionId}
       className={cn(
-        'px-4 lg:px-30 max-w-360 m-auto pt-10 lg:pt-20',
+        'px-4 lg:px-30 max-w-360 m-auto py-10 lg:pt-20 lg:pb-20',
 
         className
       )}
