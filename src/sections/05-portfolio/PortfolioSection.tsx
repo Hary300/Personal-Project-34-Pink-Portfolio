@@ -27,7 +27,7 @@ const PortfolioSection = () => {
       </div>
       <div className='flex flex-wrap gap-5 justify-center'>
         {portfolios.map((portfolio) => (
-          <div key={portfolio.id} className='flex flex-col max-w-[386.67px] '>
+          <div key={portfolio.id} className='flex flex-col max-w-[386.67px]'>
             <div className='relative rounded-3xl p-4 bg-neutral-100'>
               <img src={portfolio.image} alt={`${portfolio.title} image`} />
               {portfolio.isBest && (
