@@ -22,7 +22,7 @@ const FaqSection = () => {
       >
         {faqs.map((faq, index) => (
           <AccordionItem key={faq.value} value={faq.value}>
-            <div className='grid grid-cols-[auto_1fr] gap-4'>
+            <div className='grid grid-cols-[auto_1fr] gap-4 lg:gap-45.75'>
               <span className='font-semibold text-lg pt-2.5 '>
                 0{index + 1}
               </span>

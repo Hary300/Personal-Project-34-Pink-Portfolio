@@ -77,7 +77,7 @@ function AccordionContent({
     >
       <div
         className={cn(
-          'h-[--radix-accordion-content-height] pt-0 pb-2.5 [&_a]:underline [&_a]:underline-offset-3 [&_a]:hover:text-foreground [&_p:not(:last-child)]:mb-4',
+          'h-[--radix-accordion-content-height] pt-0 pb-2.5 [&_a]:underline [&_a]:underline-offset-3 [&_a]:hover:text-foreground [&_p:not(:last-child)]:mb-4 max-w-71.5 md:max-w-170 lg:max-w-135 xl:max-w-190.25',
           className
         )}
       >
