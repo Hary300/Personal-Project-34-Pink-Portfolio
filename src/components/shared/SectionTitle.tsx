@@ -20,7 +20,7 @@ const SectionTitle = ({
 }: SectionTitleProps) => {
   const parts = highlight && title.split(highlight);
   return (
-    <div className={cn('flex flex-col text-center', className)}>
+    <div className={cn('flex flex-col text-center gap-2', className)}>
       <p
         className={cn(
           'font-bold text-display-sm lg:text-display-xl',
