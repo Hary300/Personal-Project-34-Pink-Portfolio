@@ -5,7 +5,7 @@ import ExperiencesCarousel from './ExperiencesCarousel';
 
 const ExperiencesSection = () => {
   const header = experienceData.header;
-  // const experiences = experienceData.experiences;
+
   return (
     <SectionWrapper
       sectionId='experience'

@@ -7,7 +7,7 @@ const HeroBanner = () => {
   const MouseIcon = heroData.icon.mouse;
 
   return (
-    <div className='relative flex flex-col justify-between gap-16.25 items-center w-full sm:min-w-87.5 sm:max-w-87.5 lg:max-w-175 xl:w-[clamp(500px,54.69vw,700px)]'>
+    <div className='relative flex flex-col justify-between gap-16.25 items-center w-full sm:min-w-87.5 sm:max-w-87.5 lg:max-w-175 xl:w-[clamp(500px,54.69vw,700px)] '>
       {/* STATUS */}
       <div className='bg-primary-400 rounded-full border border-primary-300 py-1 px-4 flex items-center gap-[6px]'>
         <div className='rounded-full size-2 lg:size-4 aspect-square shrink-0 bg-[#E26190]' />
@@ -31,7 +31,7 @@ const HeroBanner = () => {
         </p>
         {/* DEVELOPER IMAGE */}
         <div className='relative max-w-[clamp(300px,88.24vw,375px)] lg:max-w-152.5 -mt-15 lg:mt-0 z-10'>
-          <img src={devImage} alt='dev image' />
+          <img src={devImage} alt='dev image' fetchPriority='high' />
         </div>
         {/* JUNIOR TEXT */}
         <p className='absolute top-[clamp(-15px,-9.41vw,-20px)] left-0 lg:-left-15 lg:-top-20 xl:-left-36 xl:-top-25.25 font-bonheurRoyale text-[clamp(40px,15.2vw,64.59px)] lg:text-[113.23px] text-white rotate-[-12.34deg] z-20'>

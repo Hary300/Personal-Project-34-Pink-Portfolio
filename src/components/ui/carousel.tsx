@@ -5,8 +5,7 @@ import useEmblaCarousel, {
 
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
-import { ChevronLeftIcon, ChevronRightIcon } from 'lucide-react';
-import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+import { GoArrowRight, GoArrowLeft } from 'react-icons/go';
 
 type CarouselApi = UseEmblaCarouselType[1];
 type UseCarouselParameters = Parameters<typeof useEmblaCarousel>;
@@ -194,7 +193,7 @@ function CarouselPrevious({
       onClick={scrollPrev}
       {...props}
     >
-      <FaArrowLeft className='size-4 lg:size-6' />
+      <GoArrowLeft className='size-4 lg:size-6' />
       <span className='sr-only'>Previous slide</span>
     </Button>
   );
@@ -224,7 +223,7 @@ function CarouselNext({
       onClick={scrollNext}
       {...props}
     >
-      <FaArrowRight className='size-4 lg:size-6' />
+      <GoArrowRight className='size-4 lg:size-6' />
       <span className='sr-only'>Next slide</span>
     </Button>
   );

@@ -1,4 +1,4 @@
-import devImage from '@/assets/images/devs/devCloseUp.png';
+import devImage from '@/assets/images/devs/devCloseUp.webp';
 import type { Header } from '@/types/headerSection';
 import type { IconType } from 'react-icons';
 import { FaUser } from 'react-icons/fa';

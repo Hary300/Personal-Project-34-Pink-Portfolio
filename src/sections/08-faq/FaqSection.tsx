@@ -7,6 +7,7 @@ const FaqSection = () => {
   return (
     <SectionWrapper sectionId='faq'>
       <SectionTitle title={header.title} subtitle={header.subtitle} />
+      <div>test</div>
     </SectionWrapper>
   );
 };

@@ -1,4 +1,4 @@
-import devCloseUp from '@/assets/images/devs/devCloseUp.png';
+import devCloseUp from '@/assets/images/devs/devCloseUp.webp';
 import { FaMicrophone } from 'react-icons/fa';
 import { CiDesktopMouse2 } from 'react-icons/ci';
 import type { HeroData } from '@/types/heroData';
