@@ -24,7 +24,7 @@ interface SkillsData {
   skills: Skill[];
 }
 
-export const techStackData: SkillsData = {
+export const skillsData: SkillsData = {
   header: {
     title: 'Code, Design, and Everything in Between',
     subtitle:

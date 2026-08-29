@@ -27,7 +27,6 @@ export interface HeroActions {
 
 export interface HeroIcon {
   microphone: IconType;
-  arrow: IconType;
   mouse: IconType;
 }
 

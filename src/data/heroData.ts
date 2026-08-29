@@ -1,5 +1,5 @@
 import devCloseUp from '@/assets/images/devs/devCloseUp.png';
-import { FaArrowRight, FaMicrophone } from 'react-icons/fa';
+import { FaMicrophone } from 'react-icons/fa';
 import { CiDesktopMouse2 } from 'react-icons/ci';
 import type { HeroData } from '@/types/heroData';
 import pattern from '@/assets/images/pattern.webp';
@@ -49,7 +49,6 @@ export const heroData: HeroData = {
   },
   icon: {
     microphone: FaMicrophone,
-    arrow: FaArrowRight,
     mouse: CiDesktopMouse2,
   },
   background: {
