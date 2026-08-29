@@ -1,4 +1,4 @@
-import DesktopNavLinks from '../DesktopNavLinks';
+import DesktopNavLinks from './DesktopNavLinks';
 
 const DesktopHeader = () => {
   return (

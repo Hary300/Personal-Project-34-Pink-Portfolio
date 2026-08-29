@@ -1,4 +1,4 @@
-import ContactMeButton from '@/components/ContactMeButton';
+import ContactMeButton from '@/components/shared/ContactMeButton';
 import { heroData } from '@/data/heroData';
 import { cn } from '@/lib/utils';
 

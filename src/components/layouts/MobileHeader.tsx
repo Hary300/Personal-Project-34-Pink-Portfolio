@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import MobileNavLinks from '../MobileNavLinks';
+import MobileNavLinks from './MobileNavLinks';
 import { Button } from '../ui/button';
 import { RxCross1, RxHamburgerMenu } from 'react-icons/rx';
 import { cn } from '@/lib/utils';
