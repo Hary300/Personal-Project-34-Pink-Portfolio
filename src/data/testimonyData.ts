@@ -25,7 +25,7 @@ export const testimonialData: TestimonyData = {
       id: '1',
       rating: 5,
       quote:
-        "Working with Edwin Anderson was a smooth experience from start to finish. He translated our design into clean, responsive code and even suggested improvements we hadn't thought of. Highly recommended!",
+        "Working with Hary was a smooth experience from start to finish. He translated our design into clean, responsive code and even suggested improvements we hadn't thought of. Highly recommended!",
       name: 'Sarah Tan',
       role: 'Product Manager at Finovate',
       avatar: 'https://i.pravatar.cc/150?img=47',

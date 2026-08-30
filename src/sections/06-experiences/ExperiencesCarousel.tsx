@@ -47,8 +47,8 @@ const ExperiencesCarousel = () => {
         ))}
       </CarouselContent>
       <div className='flex gap-4 justify-center'>
-        <CarouselPrevious className='static text-neutral-950 lg:size-11.25' />
-        <CarouselNext className='static text-neutral-950 lg:size-11.25' />
+        <CarouselPrevious className='static text-neutral-950 lg:size-11.25 border-0' />
+        <CarouselNext className='static text-neutral-950 lg:size-11.25 border-0' />
       </div>
     </Carousel>
   );
