@@ -1,6 +1,5 @@
 import { cn } from '@/lib/utils';
 import { FaArrowRight } from 'react-icons/fa';
-import { Button } from '../ui/button';
 
 interface CircleArrowProps {
   className?: string;
@@ -8,14 +7,14 @@ interface CircleArrowProps {
 
 const CircleArrow = ({ className = 'bg-neutral-950' }: CircleArrowProps) => {
   return (
-    <Button
+    <div
       className={cn(
-        'flex justify-center items-center rounded-full aspect-square size-9',
+        'flex justify-center items-center rounded-full aspect-square size-9 cursor-pointer transition-all duration-200 active:translate-y-px',
         className
       )}
     >
       <FaArrowRight className='text-white' />
-    </Button>
+    </div>
   );
 };
 

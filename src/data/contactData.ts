@@ -1,6 +1,11 @@
 import type { Header } from '@/types/headerSection';
+import portfolio1 from '@/assets/images/portfolio/portfolio1.webp';
+import portfolio2 from '@/assets/images/portfolio/portfolio2.webp';
+import portfolio3 from '@/assets/images/portfolio/portfolio3.webp';
+import devIlustration from '@/assets/images/devs/devIllustration.png';
 
 interface Field {
+  name: 'name' | 'email' | 'subject' | 'message';
   label: string;
   placeholder: string;
   isTextArea: boolean;
@@ -10,6 +15,7 @@ interface Form {
   devIllustration: string;
   fields: Field[];
   buttonText: string;
+  sendingText: string;
 }
 
 interface Preview {
@@ -30,29 +36,39 @@ export const contactData: ContactData = {
       "Have a project in mind or just want to say hi? Drop me a message—I'd love to hear from you.",
   },
   previews: [
-    { id: 'preview-1', image: '/assets/images/portfolio-preview-1.png' },
-    { id: 'preview-2', image: '/assets/images/portfolio-preview-2.png' },
-    { id: 'preview-3', image: '/assets/images/portfolio-preview-3.png' },
+    { id: 'preview-1', image: portfolio1 },
+    { id: 'preview-2', image: portfolio2 },
+    { id: 'preview-3', image: portfolio3 },
   ],
   form: {
-    devIllustration: '/assets/illustrations/character-peek.svg',
+    devIllustration: devIlustration,
     fields: [
       {
+        name: 'name',
         label: 'Name',
         placeholder: 'Enter your name',
         isTextArea: false,
       },
       {
+        name: 'email',
         label: 'Email',
         placeholder: 'Enter your email',
         isTextArea: false,
       },
       {
+        name: 'subject',
+        label: 'Subject',
+        placeholder: 'Enter your subject',
+        isTextArea: false,
+      },
+      {
+        name: 'message',
         label: 'Message',
         placeholder: 'Enter your message',
         isTextArea: true,
       },
     ],
     buttonText: "Let's Talk",
+    sendingText: 'Sending...',
   },
 };

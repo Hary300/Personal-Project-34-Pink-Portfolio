@@ -45,14 +45,18 @@ function AccordionTrigger({
         )}
         {...props}
       >
-        <div className='flex-1 min-w-0 max-w-75 sm:max-w-150 w-full '>
+        <div className='flex-1 min-w-0 max-w-[clamp(200px,calc(87.77vw-81px),480px)] sm:max-w-150 w-full '>
           {children}
         </div>
 
-        <span className='absolute right-0 top-1/2 -translate-y-1/2 size-10 bg-primary-300 group-aria-expanded/accordion-trigger:bg-neutral-300  rounded-full aspect-square shrink-0 flex justify-center items-center'>
+        <span
+          className='absolute right-0 top-1/2 -translate-y-1/2 size-10 bg-primary-300 group-aria-expanded/accordion-trigger:bg-white
+        group-aria-expanded/accordion-trigger:border
+        group-aria-expanded/accordion-trigger:border-neutral-300  rounded-full aspect-square shrink-0 flex justify-center items-center'
+        >
           <FaPlus
             data-slot='accordion-trigger-icon'
-            className='pointer-events-none text-neutral-300 shrink-0 group-aria-expanded/accordion-trigger:hidden'
+            className='pointer-events-none text-white shrink-0 group-aria-expanded/accordion-trigger:hidden'
           />
           <FaMinus
             data-slot='accordion-trigger-icon'
@@ -77,7 +81,7 @@ function AccordionContent({
     >
       <div
         className={cn(
-          'h-[--radix-accordion-content-height] pt-0 pb-2.5 [&_a]:underline [&_a]:underline-offset-3 [&_a]:hover:text-foreground [&_p:not(:last-child)]:mb-4 max-w-71.5 md:max-w-170 lg:max-w-135 xl:max-w-190.25',
+          'h-[--radix-accordion-content-height] pt-0 pb-2.5 [&_a]:underline [&_a]:underline-offset-3 [&_a]:hover:text-foreground [&_p:not(:last-child)]:mb-4 max-w-71.5 md:max-w-120 lg:max-w-135 xl:max-w-190.25',
           className
         )}
       >

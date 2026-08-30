@@ -12,7 +12,7 @@ const FaqSection = () => {
   const header = faqData.header;
   const faqs = faqData.faqs;
   return (
-    <SectionWrapper sectionId='faq'>
+    <SectionWrapper sectionId='faq' className='bg-neutral-100'>
       <SectionTitle title={header.title} subtitle={header.subtitle} />
       <Accordion
         type='single'
