@@ -58,6 +58,7 @@
   src: url('../assets//fonts//Anton-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
+  font-display: block;
 }
 
 @font-face {
@@ -65,6 +66,7 @@
   src: url('../assets/fonts/BonheurRoyale-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
+  font-display: block;
 }
 
 @theme {
