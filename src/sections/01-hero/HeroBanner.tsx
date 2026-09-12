@@ -7,7 +7,7 @@ const HeroBanner = () => {
   const MouseIcon = heroData.icon.mouse;
 
   return (
-    <div className='relative flex flex-col justify-between gap-16.25 items-center w-full sm:min-w-87.5 sm:max-w-87.5 lg:max-w-175 xl:w-[clamp(500px,54.69vw,700px)] '>
+    <div className='absolute left-0 right-0 overflow-hidden sm:overflow-visible bottom-0 sm:static lg:absolute flex flex-col justify-between gap-16.25 items-center sm:w-87.5 sm:shrink-0 lg:w-175 xl:w-[clamp(500px,54.69vw,700px)] lg:left-1/2 lg:right-auto lg:-translate-x-1/2 '>
       {/* STATUS */}
       <div className='bg-primary-400 rounded-full border border-primary-300 py-1 px-4 flex items-center gap-[6px]'>
         <div className='rounded-full size-2 lg:size-4 aspect-square shrink-0 bg-[#E26190]' />

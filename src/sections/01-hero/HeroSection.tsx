@@ -11,13 +11,13 @@ const HeroSection = () => {
   return (
     <SectionWrapper
       sectionId='home'
-      className='lg:relative flex flex-col justify-center items-center pt-22 lg:pt-56.75 gap-9.5 pb-0 sm:gap-4 sm:flex-row sm:items-stretch lg:items-end lg:pb-0  lg:min-h-256'
+      className='relative flex sm:flex-row pt-22 lg:pt-56.75 gap-9.5 pb-0 sm:gap-4 sm:items-stretch lg:pb-0 h-[clamp(980px,calc(45.714vw+833.714px),1028px)] sm:h-auto lg:h-256'
       style={{
         backgroundImage: `linear-gradient(rgba(165, 56, 96, 0.94), rgba(165, 56, 96, 0.9)), url(${pattern})`,
         backgroundSize: 'cover',
       }}
     >
-      <div className='flex lg:hidden flex-col gap-6.25'>
+      <div className='flex lg:hidden flex-col gap-6.25 '>
         <HeroBio />
         <HeroStats />
       </div>
